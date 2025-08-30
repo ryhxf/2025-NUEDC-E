@@ -1,0 +1,14 @@
+[Unit]
+Description=GPIO Control Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /root/square/detect/gpio_control.py
+Restart=always
+RestartSec=5
+User=root
+WorkingDirectory=/root/square/detect
+
+[Install]
+WantedBy=multi-user.target
