@@ -1,0 +1,195 @@
+{
+  "image_size": {
+    "width": 640,
+    "height": 480
+  },
+  "servo_config": {
+    "x_servo_id": 1,
+    "y_servo_id": 2,
+    "resolution": 4096,
+    "angle_per_unit": 0.087890625,
+    "position_min": -32767,
+    "position_max": 32768
+  },
+  "delta_limits": {
+    "max_delta_x": 15.0,
+    "max_delta_y": 15.0
+  },
+  "center_position": {
+    "x": 696,
+    "y": 308
+  },
+  "calibration_points": [
+    {
+      "image_x": 315,
+      "image_y": 234,
+      "delta_x": 0.0,
+      "delta_y": 0.0,
+      "center_x": 696,
+      "center_y": 308,
+      "current_x": 696,
+      "current_y": 308,
+      "offset_x": -5.0,
+      "offset_y": -6.0,
+      "timestamp": 1753973382.1936533
+    },
+    {
+      "image_x": 373,
+      "image_y": 234,
+      "delta_x": -4.921875,
+      "delta_y": 0.0,
+      "center_x": 696,
+      "center_y": 308,
+      "current_x": 640,
+      "current_y": 308,
+      "offset_x": 53.0,
+      "offset_y": -6.0,
+      "timestamp": 1753973394.3886452
+    },
+    {
+      "image_x": 373,
+      "image_y": 291,
+      "delta_x": -4.921875,
+      "delta_y": -4.921875,
+      "center_x": 696,
+      "center_y": 308,
+      "current_x": 640,
+      "current_y": 252,
+      "offset_x": 53.0,
+      "offset_y": 51.0,
+      "timestamp": 1753973407.4202154
+    },
+    {
+      "image_x": 376,
+      "image_y": 352,
+      "delta_x": -4.921875,
+      "delta_y": -9.84375,
+      "center_x": 696,
+      "center_y": 308,
+      "current_x": 640,
+      "current_y": 196,
+      "offset_x": 56.0,
+      "offset_y": 112.0,
+      "timestamp": 1753973431.3994246
+    },
+    {
+      "image_x": 438,
+      "image_y": 351,
+      "delta_x": -9.84375,
+      "delta_y": -9.84375,
+      "center_x": 696,
+      "center_y": 308,
+      "current_x": 584,
+      "current_y": 196,
+      "offset_x": 118.0,
+      "offset_y": 111.0,
+      "timestamp": 1753973441.8613214
+    },
+    {
+      "image_x": 314,
+      "image_y": 352,
+      "delta_x": 0.0,
+      "delta_y": -9.84375,
+      "center_x": 696,
+      "center_y": 308,
+      "current_x": 696,
+      "current_y": 196,
+      "offset_x": -6.0,
+      "offset_y": 112.0,
+      "timestamp": 1753973454.7265732
+    },
+    {
+      "image_x": 252,
+      "image_y": 349,
+      "delta_x": 4.921875,
+      "delta_y": -9.84375,
+      "center_x": 696,
+      "center_y": 308,
+      "current_x": 752,
+      "current_y": 196,
+      "offset_x": -68.0,
+      "offset_y": 109.0,
+      "timestamp": 1753973464.2175498
+    },
+    {
+      "image_x": 249,
+      "image_y": 291,
+      "delta_x": 4.921875,
+      "delta_y": -4.921875,
+      "center_x": 696,
+      "center_y": 308,
+      "current_x": 752,
+      "current_y": 252,
+      "offset_x": -71.0,
+      "offset_y": 51.0,
+      "timestamp": 1753973475.7558498
+    },
+    {
+      "image_x": 249,
+      "image_y": 232,
+      "delta_x": 4.921875,
+      "delta_y": 0.0,
+      "center_x": 696,
+      "center_y": 308,
+      "current_x": 752,
+      "current_y": 308,
+      "offset_x": -71.0,
+      "offset_y": -8.0,
+      "timestamp": 1753973493.5246098
+    },
+    {
+      "image_x": 253,
+      "image_y": 173,
+      "delta_x": 4.921875,
+      "delta_y": 4.921875,
+      "center_x": 696,
+      "center_y": 308,
+      "current_x": 752,
+      "current_y": 364,
+      "offset_x": -67.0,
+      "offset_y": -67.0,
+      "timestamp": 1753973515.627201
+    },
+    {
+      "image_x": 193,
+      "image_y": 175,
+      "delta_x": 9.84375,
+      "delta_y": 4.921875,
+      "center_x": 696,
+      "center_y": 308,
+      "current_x": 808,
+      "current_y": 364,
+      "offset_x": -127.0,
+      "offset_y": -65.0,
+      "timestamp": 1753973523.649638
+    },
+    {
+      "image_x": 314,
+      "image_y": 174,
+      "delta_x": 0.0,
+      "delta_y": 4.921875,
+      "center_x": 696,
+      "center_y": 308,
+      "current_x": 696,
+      "current_y": 364,
+      "offset_x": -6.0,
+      "offset_y": -66.0,
+      "timestamp": 1753973533.5638433
+    },
+    {
+      "image_x": 376,
+      "image_y": 176,
+      "delta_x": -4.921875,
+      "delta_y": 4.921875,
+      "center_x": 696,
+      "center_y": 308,
+      "current_x": 640,
+      "current_y": 364,
+      "offset_x": 56.0,
+      "offset_y": -64.0,
+      "timestamp": 1753973543.0574749
+    }
+  ],
+  "timestamp": 1753973547.3468528,
+  "point_count": 13
+}
